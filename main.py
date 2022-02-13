@@ -29,5 +29,10 @@ for i in range(1, N1+1) :
         print(i, " * ", j, end="")
         print(" = ", i * j)
 
+# Programm qui permet d'afficher les etoils sous format d'un rectangle
+for y in range(1, 4) :
+    for z in range(1, 4) :
+        print(" * ", end="")
+    print("")
 
 
